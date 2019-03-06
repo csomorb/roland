@@ -1,6 +1,6 @@
 </main>
 <footer class="footer">
- <div class="row">
+ <div class="row container">
       
       <div class="col m6">
          Agg Roland<br/>
@@ -10,7 +10,7 @@
       </div>    
       <div class="footer-contact">
       <div><i class="material-icons">phone</i></div>
-            <div> <a href="tel:+366304595855">06304595855</a> <br/>
+            <div> <a href="tel:+366304595855">06304595855</a> </div>
       </div>
       <div class="footer-contact">
       <div><i class="material-icons">home</i></div><div>Agg Roland<br/>
@@ -20,10 +20,11 @@
       </div>
       </div>
       <div class="col m6">Linkek<br/>
-      <a href="https://louiseplantin.fr" target="_blank">louiseplantin.fr</a><br/>
+      <a href="https://blabla" target="_blank">Jazz elmélet</a><br/>
       </div>
       
     </div>
+    </footer>
           
 
 
