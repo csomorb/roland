@@ -525,3 +525,125 @@ body {
 .parahome{
     height: 700px;
 }
+
+.prixcon{
+    display: flex;
+     flex-wrap: wrap;
+     justify-content:center;
+}
+
+.et_pb_pricing_table_0.et_pb_pricing_table {
+    background-color: rgba(0,0,0,.52);
+}
+
+.et_pb_pricing_heading {
+    position: relative;
+    margin-bottom: 17px;
+    padding: 10px 0;
+    background-color: #bebebe;
+}
+
+.et_pb_pricing_heading .et_pb_pricing_title, .et_pb_pricing_heading h2 {
+    padding-bottom: 5px;
+    color: #fff;
+    font-size: 24px; 
+    margin:0;
+}
+
+.et_pb_best_value {
+    display: block;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+}
+
+.et_pb_pricing_content_top {
+    position: relative;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #bebebe;
+}
+
+.et_pb_pricing_content {
+    position: relative;
+    padding: 30px;
+    text-align: left;
+}
+
+.et_pb_counters, .et_pb_pricing, .et_pb_tabs_controls, .et_pb_widget_area ul {
+    padding: 0!important;
+    line-height: inherit!important;
+    list-style: none!important;
+}
+
+.et_pb_pricing_table_0 .et_pb_pricing li {
+    font-family: 'Nunito',Helvetica,Arial,Lucida,sans-serif;
+    font-weight: 600;
+    font-size: 17px;
+    color: #ffffff!important;
+}
+
+.et_pb_pricing_table{
+    margin: 60px;
+}
+
+.pralaprix{
+    height: 620px;
+}
+
+@media screen and (max-width: 900px) {
+.et_pb_pricing_table{
+ margin-left: 10px;   
+ margin-right: 10px;   
+}
+}
+
+@media screen and (max-width: 600px) {
+    .pralaprix {
+        height: 1020px;
+    }
+.et_pb_pricing_table{
+ margin:20px;   
+}
+}
+
+
+
+
+.et_pb_pricing li {
+    position: relative;
+    padding: 0 0 1.6em 14px;
+    line-height: 1.6em;
+}
+.et_pb_pricing li span {
+    position: relative;
+}
+
+.et_pb_et_price {
+    color: #999;
+    font-size: 16px;
+}
+
+.et_pb_pricing_table_0 .et_pb_dollar_sign, .et_pb_pricing_table_0 .et_pb_frequency {
+    font-family: 'Nunito',Helvetica,Arial,Lucida,sans-serif;
+    font-size: 22px;
+    color: #ffffff!important;
+}
+
+.et_pb_pricing_table_0 .et_pb_et_price .et_pb_sum {
+    color: #dca47d!important;
+    text-shadow: 0em 0.1em 0.1em rgba(0,0,0,.4);
+}
+
+.et_pb_sum {
+    font-size: 80px;
+    font-weight: 300;
+    line-height: 1.03em;
+}
+
+.et_pb_sum {
+    font-size: 80px;
+    font-weight: 300;
+    line-height: 1.03em;
+}
+
