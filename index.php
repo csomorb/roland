@@ -12,11 +12,7 @@
           <div class="col m6">
               <h2 class="header">ÜDVÖZÖLJÜK</h2>
               <p>
-Agg Roland vagyok. Szeretnél gitározni tanulni? Esetleg fejleszteni a már meglévő tudásodat?
-Jó helyen jársz. Gyere el egy ingyenes konzultációra ott minden fontos infot megtudhatsz. 
-Folyamatos célokat tűzünk ki amiket könnyen megtudunk valósítani. Készen állsz? Csapjunk bele!
-Otthoni gitár órákat kínálok az Ön szintjének, korának és zenei ízlésének megfelelően. 
-Osztályaim gyerekeknek, felnőtteknek, kezdő és fejlett gitárosoknak szólnak.
+                <?php the_field('udvozuljuk_szoveg'); ?>
 
          </div>
           <div class="col m6">
@@ -54,64 +50,75 @@ Az otthoni gitárórákat személyes szolgáltatásnak tekintik. A levont össze
     <div class="containertrait"><div class="traitm"></div></div>
     <div class="row container">
         <div class="col m4 blocavis">
-            <h4 class="nom">Árvay Józsefné</h4>
+            <h4 class="nom"><?php the_field('velemeny_1_nev'); ?></h4>
             <p class="profession">Diák szülok</p>
             <img src="<?php echo get_bloginfo('template_directory'); ?>/img/five-stars.png" class="star"/>
             <div class="greyblock">
                 <img src="<?php echo get_bloginfo('template_directory'); ?>/img/quote-png-3.png" class="quote"/>
-Dávid láthatóan megtalálta élete hobbiját, állandóan gyakorol, nagyon élvezi.  A zene tényleg fejleszti a kreativitást, a koncentrációt, javítja a memóriát. Nagyon örülök, hogy a rátalált a fejlődésének a legegyszerűbb útjára.           </div>
+                <?php the_field('velemeny_1'); ?>
+            </div>
         </div>
         <div class="col m4 blocavis">
-            <h4 class="nom">Papp Martin</h4>
+            <h4 class="nom"><?php the_field('velemeny_2_nev'); ?></h4>
             <p class="profession">Diák</p>
             <img src="<?php echo get_bloginfo('template_directory'); ?>/img/five-stars.png" class="star"/>
             <div class="greyblock">
                 <img src="<?php echo get_bloginfo('template_directory'); ?>/img/quote-png-3.png" class="quote"/>
-Roli egy nagyon jó tanár. Már sok tanárt megjártam, nála elkezdtük részletesen a hiányosságaimat pótolni, nagyon részletes. Stílusokban könnyen mozog, nyitott bármire. Nehéz olyat kérdezni tőle amitől zavarba jön. Csak ajánlani tudom mindenkinek  </div>
+                <?php the_field('velemeny_2'); ?> 
+            </div>
         </div>
         <div class="col m4 blocavis">
-            <h4 class="nom">Jacques H.</h4>
+            <h4 class="nom"><?php the_field('velemeny_3_nev'); ?></h4>
             <p class="profession">Tanár</p>
             <img src="<?php echo get_bloginfo('template_directory'); ?>/img/five-stars.png" class="star"/>
             <div class="greyblock">
                 <img src="<?php echo get_bloginfo('template_directory'); ?>/img/quote-png-3.png" class="quote"/>
-Kiváló tanár. Strukturált, változó és változatos tanfolyam-keverési gyakorlat és elmélet a keresleten, olvasási eredmények, tablatúrák és hallgatói munka, amelyek az autonóm zenei gyakorlatot részesítik előnyben.
+                <?php the_field('velemeny_3'); ?>
             </div>
         </div>
     </div>
 </div>
 <div class="row">
     <div class="col m4 no-padding">
-        <img src="<?php echo get_bloginfo('template_directory'); ?>/img/guitaristelive.jpg" class="responsive-img"/>
+        <?php 
+        $image = get_field('kocska_kep_1');
+        if( !empty($image) ): ?>
+        <img src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt']; ?>" class="responsive-img" />
+        <?php endif; ?>
         <div class="blockdifu">
             <div><i class="material-icons icog">play_circle_outline</i></div>
             <div>
-                <h4 class="center-align">JOUEZ RAPIDEMENT VOTRE PREMIER MORCEAU</h4>
-                <p>
-Álmodsz-e egy csoportban játszani, énekelni, improvizálni, vagy egyszerűen megtanulni játszani kedvenc dalait? Itt vagyok, hogy segítsek neked, hogy az Ön szintjéhez és zenei ízléseihez igazodó munkapályákat hozzunk. A hangszer tanulása türelmet és elszántságot igényel, és jobb, ha egy tanár kíséretében indul, mert a gitárjáték megtanulása nem improvizált.</p>
+                <h4 class="center-align"><?php the_field('kocska_kep_1_cim'); ?></h4>
+                <p><?php the_field('kocska_kep_1_szoveg'); ?></p>
             </div>
         </div>
     </div>
      <div class="col m4 no-padding">
-        <img src="<?php echo get_bloginfo('template_directory'); ?>/img/carre.jpg" class="responsive-img"/>
+        <?php 
+        $image = get_field('kocska_kep_2');
+        if( !empty($image) ): ?>
+        <img src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt']; ?>" class="responsive-img" />
+        <?php endif; ?>
         <div class="blockdifu">
             <div><i class="material-icons icog">queue_music</i></div>
             <div>
-                <h4 class="center-align">JOUEZ RAPIDEMENT VOTRE PREMIER MORCEAU</h4>
-                <p>
-Álmodsz-e egy csoportban játszani, énekelni, improvizálni, vagy egyszerűen megtanulni játszani kedvenc dalait? Itt vagyok, hogy segítsek neked, hogy az Ön szintjéhez és zenei ízléseihez igazodó munkapályákat hozzunk. A hangszer tanulása türelmet és elszántságot igényel, és jobb, ha egy tanár kíséretében indul, mert a gitárjáték megtanulása nem improvizált.</p>
+                <h4 class="center-align"><?php the_field('kocska_kep_2_cim'); ?></h4>
+                <p><?php the_field('kocska_kep_2_szoveg'); ?></p>
             </div>
         </div>
-        <div class="btncentre"><span class="spancours"><a href="">TANANYAG</a></span></div>
+        <div class="btncentre"><span class="spancours"><a href="/tananyag">TANANYAG</a></span></div>
     </div>
      <div class="col m4 no-padding">
-        <img src="<?php echo get_bloginfo('template_directory'); ?>/img/partition.png" class="responsive-img"/>
+        <?php 
+        $image = get_field('kocska_kep_3');
+        if( !empty($image) ): ?>
+        <img src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt']; ?>" class="responsive-img" />
+        <?php endif; ?>
         <div class="blockdifu">
             <div><i class="material-icons icog">music_note</i></div>
             <div>
-                <h4 class="center-align">JOUEZ RAPIDEMENT VOTRE PREMIER MORCEAU</h4>
-                <p>
-Álmodsz-e egy csoportban játszani, énekelni, improvizálni, vagy egyszerűen megtanulni játszani kedvenc dalait? Itt vagyok, hogy segítsek neked, hogy az Ön szintjéhez és zenei ízléseihez igazodó munkapályákat hozzunk. A hangszer tanulása türelmet és elszántságot igényel, és jobb, ha egy tanár kíséretében indul, mert a gitárjáték megtanulása nem improvizált.</p>
+                <h4 class="center-align"><?php the_field('kocska_kep_3_cim'); ?></h4>
+                <p><?php the_field('kocska_kep_3_szoveg'); ?></p>
             </div>
         </div>
     </div>
