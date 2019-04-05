@@ -1,10 +1,10 @@
 <?php get_header(); ?>
 <div class="home">
-    <div class="parallax-container parahome">
+    <div class="parallax-container parahome padding-top-40">
       <div class="parallax"><img src="<?php echo get_bloginfo('template_directory'); ?>/img/jefferson-santos-450408-unsplash.jpg"></div>
       <h1 class="center-align">Otthoni gitárórák Budapesten</h1>
       <div class="btncentre">
-          <a href="#" target="_blank" class="inscrip">Ora foglalàs</a>
+          <a href="gitar-ora/#kapcsolat" target="_blank" class="inscrip">Ora foglalàs</a>
       </div>
     </div>
     <div class="section white">
@@ -12,8 +12,13 @@
           <div class="col m6">
               <h2 class="header">ÜDVÖZÖLJÜK</h2>
               <p>
-Roland vagyok, zenész és gitár tanár Lyonban 2005 óta. Otthoni gitár órákat kínálok az Ön szintjének, korának és zenei ízlésének megfelelően. Osztályaim gyerekeknek, felnőtteknek, kezdő és fejlett gitárosoknak szólnak. Remélem, hogy segítek itt megtalálni a szükséges gitárpályát!</p>
-          </div>
+Agg Roland vagyok. Szeretnél gitározni tanulni? Esetleg fejleszteni a már meglévő tudásodat?
+Jó helyen jársz. Gyere el egy ingyenes konzultációra ott minden fontos infot megtudhatsz. 
+Folyamatos célokat tűzünk ki amiket könnyen megtudunk valósítani. Készen állsz? Csapjunk bele!
+Otthoni gitár órákat kínálok az Ön szintjének, korának és zenei ízlésének megfelelően. 
+Osztályaim gyerekeknek, felnőtteknek, kezdő és fejlett gitárosoknak szólnak.
+
+         </div>
           <div class="col m6">
           </div>
       </div>
@@ -49,22 +54,20 @@ Az otthoni gitárórákat személyes szolgáltatásnak tekintik. A levont össze
     <div class="containertrait"><div class="traitm"></div></div>
     <div class="row container">
         <div class="col m4 blocavis">
-            <h4 class="nom">Anne Cécile B.</h4>
-            <p class="profession">Két diák szülei</p>
+            <h4 class="nom">Árvay Józsefné</h4>
+            <p class="profession">Diák szülok</p>
             <img src="<?php echo get_bloginfo('template_directory'); ?>/img/five-stars.png" class="star"/>
             <div class="greyblock">
                 <img src="<?php echo get_bloginfo('template_directory'); ?>/img/quote-png-3.png" class="quote"/>
-A gyerekeim szeretik és haladnak! Roland Bravo a pedagógia, a kíséret és a hallgatás számára!
-            </div>
+Dávid láthatóan megtalálta élete hobbiját, állandóan gyakorol, nagyon élvezi.  A zene tényleg fejleszti a kreativitást, a koncentrációt, javítja a memóriát. Nagyon örülök, hogy a rátalált a fejlődésének a legegyszerűbb útjára.           </div>
         </div>
         <div class="col m4 blocavis">
-            <h4 class="nom">Jordy P.</h4>
+            <h4 class="nom">Papp Martin</h4>
             <p class="profession">Diák</p>
             <img src="<?php echo get_bloginfo('template_directory'); ?>/img/five-stars.png" class="star"/>
             <div class="greyblock">
                 <img src="<?php echo get_bloginfo('template_directory'); ?>/img/quote-png-3.png" class="quote"/>
-Roland nagy tanár! Nagyon pedagógus és képes alkalmazkodni a személyes vágyakhoz (legalábbis ez a helyzet nekem). Miután haboztam, hogy gitárórákat vegyetek a csalódás miatt, ajánlom, hogy élsz! Egy nagyon profi gitár tanár, aki részt vesz abban, amit csinál, és aki segíteni fog nekem a haladásban, és különösen, aki jó munkamenetet adott nekem! Köszönöm Roland
-            </div>
+Roli egy nagyon jó tanár. Már sok tanárt megjártam, nála elkezdtük részletesen a hiányosságaimat pótolni, nagyon részletes. Stílusokban könnyen mozog, nyitott bármire. Nehéz olyat kérdezni tőle amitől zavarba jön. Csak ajánlani tudom mindenkinek  </div>
         </div>
         <div class="col m4 blocavis">
             <h4 class="nom">Jacques H.</h4>
@@ -113,6 +116,8 @@ Kiváló tanár. Strukturált, változó és változatos tanfolyam-keverési gya
         </div>
     </div>
 </div>
+
+<!--
 <div class="fondgris">
     <h2 class="center-align titreconf">ISMEROS TANAROK</h2>
     <div class="containertrait"><div class="traitm"></div></div>
@@ -157,6 +162,7 @@ Kiváló tanár. Strukturált, változó és változatos tanfolyam-keverési gya
         </div></a>
     </div> 
 </div>
+-->
 
 <script>
 $(document).ready(function(){

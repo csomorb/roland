@@ -4,11 +4,11 @@ Template Name: Gitàr ora
 */
 get_header(); ?>
 <div class="home">
-    <div class="parallax-container parahome">
+    <div class="parallax-container parahome padding-top-40">
       <div class="parallax"><img src="<?php echo get_bloginfo('template_directory'); ?>/img/bois.jpg"></div>
       <h1 class="center-align">Formulák és árak Guitar Lessons</h1>
       <div class="btncentre">
-          <a href="#" target="_blank" class="inscrip">Ora foglalàs</a>
+          <a href="#kapcsolat" target="_blank" class="inscrip">Ora foglalàs</a>
       </div>
     </div>
     <div class="container">
@@ -24,20 +24,20 @@ get_header(); ?>
           
           <div class="et_pb_pricing_table et_pb_pricing_table_0">
               <div class="et_pb_pricing_heading">
-                  <h2 class="et_pb_pricing_title center-align">Név</h2> 
+                  <h2 class="et_pb_pricing_title center-align">Oràk nàllam</h2> 
                   <span class="et_pb_best_value center-align">Enfants de 7 à 10 ans</span>
               </div>
               <div class="et_pb_pricing_content_top center-align"> 
                   <span class="et_pb_et_price">
                       
-                      <span class="et_pb_sum">3 000</span>
+                      <span class="et_pb_sum">2 500</span>
                       <span class="et_pb_dollar_sign">Ft</span>
                       <span class="et_pb_frequency">/ora</span>
                   </span>
               </div>
               <div class="et_pb_pricing_content">
                   <ul class="et_pb_pricing">
-                      <li><span>Tanfolyam időtartama: <strong>30 perc</strong></span></li>
+                      <li><span>Ora hossz: <strong>60 perc</strong></span></li>
                       <li><span>Helyszin : <strong>valami</strong></span></li>
                       <li><span>Szint : <strong>kezdo/profi...</strong></span></li>
                    </ul>
@@ -47,7 +47,7 @@ get_header(); ?>
            
            <div class="et_pb_pricing_table et_pb_pricing_table_0">
               <div class="et_pb_pricing_heading">
-                  <h2 class="et_pb_pricing_title center-align">Név</h2> 
+                  <h2 class="et_pb_pricing_title center-align">Oràk nàllad</h2> 
                   <span class="et_pb_best_value center-align">Enfants de 7 à 10 ans</span>
               </div>
               <div class="et_pb_pricing_content_top center-align"> 
@@ -60,7 +60,7 @@ get_header(); ?>
               </div>
               <div class="et_pb_pricing_content">
                   <ul class="et_pb_pricing">
-                      <li><span>Tanfolyam időtartama: <strong>30 perc</strong></span></li>
+                      <li><span>Ora hossz: <strong>60 perc</strong></span></li>
                       <li><span>Helyszin : <strong>valami</strong></span></li>
                       <li><span>Szint : <strong>kezdo/profi...</strong></span></li>
                    </ul>
@@ -72,9 +72,14 @@ get_header(); ?>
     </div>
     <div>
     <h2 class="center-align titreconf">HELYSZIN ...</h2>
-    <h3 class="center-align">Semmi rossz meglepetés, minden benne van az árban!</h3>
+    <h3 class="center-align">Ha lusta vagy jonni, megyek hozzàd tomni</h3>
     <div class="containertrait"><div class="traitm"></div></div>
-    <p>Cim, bkv...</p>
+    <div class="container"><p>Cím: 1119. Bp. XI.ker Fehérvári út 215./78-as kapucsengő <br/>
+<a href="http://futar.bkk.hu/?toCoord=47.447875%2C19.037695" target="_blank">Tömegközlekedés</a><br/> A helyszín jól megközelíthető:<br/>
+Móricztól: -7es busz Fonyód utca/Sáfrány utcai megálló<br/>
+-214/213/114es busz Fonyód utcai megálló<br/>
+-17/41/47/48/56-os villamos Fonyód utcai megálló
+</p></div>
     
     <script type="text/javascript" src="<?php echo get_bloginfo('template_directory'); ?>/js/ol.js"></script>
           <div id="map" class="map"></div>
@@ -82,7 +87,7 @@ get_header(); ?>
 var iconFeatures=[];
 
 var iconFeature = new ol.Feature({
-  geometry: new ol.geom.Point(ol.proj.transform([21.517262,48.289190], 'EPSG:4326',     
+  geometry: new ol.geom.Point(ol.proj.transform([19.036943,47.445171], 'EPSG:4326',     
   'EPSG:3857'))
 });
 
@@ -117,8 +122,8 @@ var map = new ol.Map({
         vectorLayer
     ],
     view: new ol.View({
-        center: ol.proj.fromLonLat([21.517262,48.289190]),
-        zoom: 10})
+        center: ol.proj.fromLonLat([19.036943,47.455171]),
+        zoom: 14})
 });
           </script>
     
@@ -134,4 +139,10 @@ $(document).ready(function(){
   });
 </script>
 
+<div id="kapcsolat"><h2 class="center-align">Kapcsolat</h2></div>
+<h3 class="center-align">Bàrmilyen kérdéssel keress bàtran, hamarosan vàlaszolok</h3>
+<div class="containertrait"><div class="traitm"></div></div>
+<div class="container">
+        <?php echo do_shortcode( '[contact-form-7 id="18" title="1 kapcsolati űrlap"]' ); ?>    
+    </div>
 <?php get_footer(); ?>
